@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .quadro {
+    width: 100px;
+    height: 100px;
+    background-color: #0000ff; 
+    animation: mudar-cor 4s forwards;
+  }
+  
+  @keyframes mudar-cor {
+    0% {
+      background-color: #0000ff;
+    }
+    100% {
+      background-color: #ff0000; 
+    }
+  }
